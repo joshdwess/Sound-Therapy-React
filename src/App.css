@@ -1,0 +1,88 @@
+body { background-color: rgb(230, 158, 143);
+
+}
+
+.sound-button{
+    background-color: rgb(185, 226, 245);
+    font-size: 60px;
+    cursor: pointer;
+    border: none;
+    margin: 4px 2px;
+ padding: 8px 20px;
+border-radius: 4px;
+box-shadow: 15%;
+transition:ease-in 0.3s;
+font-size: 3rem;
+text-align: center;
+
+}
+.home-body{
+    align-items: center;
+}
+.about-me{
+    font-size: x-large;
+    padding-left: 55%;
+    color:rgb(185, 226, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sound-button:hover{
+    box-shadow: inset 300px 0 0 0 rgb(230, 158, 143);
+    cursor: pointer;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: rgb(183, 110, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    font-size:x-large;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex ;
+    gap: 1rem;
+
+}
+
+nav a { color: silver;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+
+}
+
+h1{
+    padding-right: 40%;
+    color: rgb(185, 226, 245);
+}
+
+.about-header{
+    align-items: center;
+}
+
+
+.line-break{
+    border-bottom: solid silver 11px;
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 10%;
+    
+}
+
+img{
+    height: 100%;
+ width: 100%;
+ padding-top: 10%;
+ padding-bottom: 30%;
+ padding-right: 60%;
+ object-fit: contain;
+}
+
